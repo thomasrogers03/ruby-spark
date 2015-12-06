@@ -38,6 +38,7 @@ libraryDependencies ++= Seq(
   "org.apache.spark"  %% "spark-graphx"  % _sparkVersion,
   "org.apache.spark"  %% "spark-mllib"   % _sparkVersion,
   "org.apache.hadoop" %  "hadoop-client" % _hadoopVersion,
+  "com.datastax.spark" %% "spark-cassandra-connector" % "1.5.0-M2",
   "com.github.fommil.netlib" % "all" % "1.1.2",
   "org.scalatest" % "scalatest_2.10" % "2.2.1" % "test"
 )

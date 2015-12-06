@@ -36,3 +36,4 @@ wiki
 /benchmark/performance/spark/*
 /benchmark/performance/rspark/*
 /_*
+.idea
